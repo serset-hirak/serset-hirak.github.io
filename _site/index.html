@@ -3,35 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>SERSET</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: flex-start;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            margin-top: 0;
             background-color: #f0f0f0;
         }
         .container {
             text-align: center;
+            margin-top: 20px;
         }
         h1 {
-            font-size: 3em;
+            font-size: 4em;
             margin: 0;
         }
         p {
             font-size: 1.2em;
             color: #555;
         }
+	.button-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 100px;
+        }
+        .button {
+            display: inline-block;
+            padding: 20px 50px;
+            margin: 10px;
+            font-size: 1.8em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .button:active {
+            background-color: #003d80;
+            transform: scale(1);
+        }
+        
+        .contact-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+        }
+
+        .contact-section h2 {
+            font-size: 24px;
+        }
+
+        .contact-section p {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        
+         .button2 {
+           display: block;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        .button2:hover {
+             background-color: #4CAF50;
+        }
+
+        .button2:active {
+            background-color: #4CAF50;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Under Construction</h1>
-        <p>This site is currently under construction. Please check back later.</p>
+        <h1>smeftbounds</h1>
+ 	 <div style="height: 200px;"></div>
+        <a href="d6.html" class="button">Dimension six (Warsaw basis arxiv/1008.4884)</a>
+        <hr>
+        <a href="others.html" class="button">Other EFT basis bounds</a>
     </div>
+
+<div style="height: 50px;"></div>
+  
+    <div class="container">
+        <div style="height: 60px;"></div>
+        <a href="submit.html" class="button2"> Submit Bounds </a>
+   </div>    
+   
+   
+
+<div style="height: 50px;"></div>
+
+<div class="contact-section">
+    <p> Send your comments at: Supratim Das Bakshi (sdbakshi13@gmail.com), Anke Biek&oumltter (biekoetter.anke@gmail.com)</p>
+</div>    
+  
+   
 </body>
 </html>
-
